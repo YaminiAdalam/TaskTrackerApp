@@ -30,8 +30,8 @@ describe('Task Tracker', () => {
     //expect(screen.getByText(/1/)).toBeInTheDocument()//;
     expect(screen.getAllByText(/1/).length).toBeGreaterThan(0);
     //expect(screen.getByText('Write release notes')).toHaveStyle({
-      textDecoration: 'line-through'
-    });//
+      //textDecoration: 'line-through'
+    //});
     expect(
   screen.getByRole('checkbox', { name: /write release notes/i })
 ).toBeChecked();
